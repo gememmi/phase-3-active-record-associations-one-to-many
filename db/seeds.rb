@@ -1,7 +1,7 @@
 puts "🌱 Seeding data..."
 
 # run a loop 50 times
-50.times do
+5.times do
   # create a game with random data
   game = Game.create(
     title: Faker::Game.title,
